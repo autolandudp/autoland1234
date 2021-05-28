@@ -1,0 +1,44 @@
+body{
+    background-color: aqua;
+    text-align: center;
+}
+body{
+    margin: 0;
+    padding: 0;
+    animation: bgcolor infinite 20s;
+}
+#h1{
+    margin: 0;
+    padding: 0;font-family: fantasy;
+    font-size: 4em;
+    color: #fff;
+}
+@keyframes bgcolor{
+    0%
+    {
+        background: #f8c291;
+    }
+    20%
+    {
+        background: #f1c40f;
+    }
+    40%
+    {
+        background: #2ecc71;
+    }
+    60%
+    {
+        background: #3498db;
+    }
+    80%
+    {
+        background: #e84118;
+    }
+    100%
+    {
+        background: #B33771;
+    }
+}
+a{
+    text-decoration: none
+}
